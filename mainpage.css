@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-07-30 14:10:45
+ * @version $Id$
+ */
+
+body {
+	background-color: #f6f6f6;
+	
+	margin: 0px;
+
+
+}
+
+header.top {
+	background-color:#f6f6f6;
+	margin: 17px 0px 15px 0px;
+	padding: 0px 10px 0px 10px;
+	height: 59px;
+}
+header.top h1{
+	width: 258px;
+	height: 39px;
+	display: block;
+}
+header.top a{
+	width: 258px;
+    height: 39px;
+    display: block;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #96b97d;
+	height: 34px;
+	color:white;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 7px 40px 7px 40px;
+	list-style-type: none;
+	font-size: 15.2px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0px 20px 0px 0px;
+	
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+
+aside {
+	display: table-cell;
+	height: 435px;
+	width:14%;
+	
+}
+
+aside a,h5 {
+	display: block;
+    height: 30px;
+    width: 150px;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    padding: 10px 0px 0px 30px;
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+}
+
+aside a:nth-of-type(odd) {
+	background-color: white;
+}
+
+div#tablecontainer {
+	display: table;
+	border-spacing: 15px;
+	padding: 15px 30px 0px 15px;
+}
+
+div#row{
+	display: table-row;
+}
+
+div#section {
+	display: table-cell;
+	width: 78%;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+    border-radius: 4px;
+    vertical-align: top;
+    padding: 15px;
+}
+.artice {
+	vertical-align: top;
+	
+
+}
+.caption {
+	font-size: 18px;
+    font-weight: 700;
+    margin: 12px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#cell {
+	display: inline-block;
+	width: 260px;
+    margin: 0 8px 10px 0;
+    text-align: left;
+    height: 80px;
+    color: #bbb;
+    background-color: #f6f6f6;
+    border-radius: 5px;
+    padding: 6px 16px;
+    text-decoration: none;
+    vertical-align: top;
+}
+
+#cell:hover {
+	background-color: #FFF0F5;
+}
+div #cell h4 {
+	color: #64854c;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    text-align: left;
+}
+div #cell img {
+	float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div #cell p {
+	display: block;
+    color: #666;
+    text-align: left;
+    font-size: 12px;
+
+}
+
+
+
+#secondfoot {
+	display: block;
+    margin: 10px 0px 10px 0px;
+    height: 300px;
+    border-bottom: solid;
+    border-top: solid;
+}
+
+#tools {
+	display: table;
+    padding: 20px 40px 20px 140px;
+    width: 75%;
+    height: 260px;
+    border: solid;
+    vertical-align: top;
+
+}
+
+#toolsrow {
+	display: table-row;
+}
+
+.unorderline {
+	display: table-cell;
+	border: none;
+}
+
+
+#bigtable {
+	display: table;
+	margin: 0px;
+    height: 300px;
+}
+
+#bigtablerow {
+	display: table-row;
+}
+
+#bigtablecell {
+	display: table-cell;
+}
+
+a.unorderline { 
+	color: gray;
+	font-size: 12px;
+	text-decoration: none;
+
+}
+
+a.unorderline:hover{
+	color: green;
+}
