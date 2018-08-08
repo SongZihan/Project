@@ -8,26 +8,37 @@
 
 body {
 	background-color: #f6f6f6;
-	
 	margin: 0px;
+}
 
+.icon-编辑:before {
+		    content:"\e901";
+}
 
+.icon-编辑-01:before {
+	content:"\e903";
+}
+
+.icon-编辑-02:before {
+	content:"\e900";
 }
 
 header.top {
 	background-color:#f6f6f6;
 	margin: 17px 0px 15px 0px;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 10px 0px 20px;
 	height: 59px;
 }
 header.top h1{
 	width: 258px;
 	height: 39px;
 	display: block;
+	margin:0px;
 }
 header.top a{
 	width: 258px;
-    height: 39px;
+	height: 39px;
+	padding: 10px 0 0 35px;
     display: block;
 	text-decoration: none;
 }
@@ -40,20 +51,30 @@ nav {
 
 nav ul {
 	margin: 0px;
-	padding: 7px 40px 7px 40px;
+	padding: 7px 40px 7px 35px;
 	list-style-type: none;
 	font-size: 15.2px;
 }
 
 nav ul li {
-	display: inline;
+	display: inline-block;
 	margin: 0px 20px 0px 0px;
 	
 }
 
 nav a {
+	display: inline-block;
 	text-decoration: none;
 	color: white;
+	font-size: 0.9em;
+	transition: .3s all ease;
+
+}
+
+nav ul li a:hover {	
+ color: #373a35;
+
+	
 }
 
 
@@ -64,13 +85,20 @@ aside {
 	
 }
 
+#asidehead {
+	height:19px ;
+	font-size: 1em;
+	font-weight: 200;
+	padding: 5px 1px 5px 9px;
+
+}
 aside a,h5 {
 	display: block;
     height: 30px;
-    width: 150px;
+    width: 170px;
     border: 1px solid #eaeaea;
     border-radius: 4px;
-    padding: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 10px;
     text-decoration: none;
     margin: 0px;
     color: black;
@@ -82,8 +110,8 @@ aside a:nth-of-type(odd) {
 
 div#tablecontainer {
 	display: table;
-	border-spacing: 15px;
-	padding: 15px 30px 0px 15px;
+	border-spacing: 0;
+	padding: 20px 10px 0px 10px;
 }
 
 div#row{
@@ -156,8 +184,8 @@ div #cell p {
 	display: block;
     margin: 10px 0px 10px 0px;
     height: 300px;
-    border-bottom: solid;
-    border-top: solid;
+    border-bottom: solid 1px gray;
+    border-top: solid 1px gray;
 }
 
 #tools {
@@ -165,7 +193,7 @@ div #cell p {
     padding: 20px 40px 20px 140px;
     width: 75%;
     height: 260px;
-    border: solid;
+    border: none;
     vertical-align: top;
 
 }
@@ -192,12 +220,27 @@ div #cell p {
 
 #bigtablecell {
 	display: table-cell;
+	border: solid gray;
+    border-width: 0 0 0 1px;
 }
 
 a.unorderline { 
 	color: gray;
 	font-size: 12px;
 	text-decoration: none;
+	
+	text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100px;
+	
+
+}
+
+div #toolsrow li {
+	
+    margin: 0;
+    padding:10px 0 0 0;
 
 }
 
