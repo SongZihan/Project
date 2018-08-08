@@ -110,8 +110,8 @@ aside a:nth-of-type(odd) {
 
 div#tablecontainer {
 	display: table;
-	border-spacing: 0;
-	padding: 20px 10px 0px 10px;
+	border-spacing: 10px;
+	padding: 10px 0px 0px 0px;
 }
 
 div#row{
@@ -120,12 +120,53 @@ div#row{
 
 div#section {
 	display: table-cell;
-	width: 78%;
+	width: 82%;
     border: 1px solid #eaeaea;
     background-color: #fff;
     border-radius: 4px;
     vertical-align: top;
     padding: 15px;
+}
+
+div#rightbar {
+	display: table-column;
+	position: fixed;
+	right: 18px;
+	top:450px;
+	height: 60px;
+	width: 40px;
+}
+
+.icon-编辑-04:before {
+	position: relative;
+	top:5px;
+	left: 10px;
+	content: "\e911";
+	
+}
+.icon-编辑-05:before {
+	position: relative;
+	top:5px;
+	left: 10px;
+	content: "\e910";
+}
+div#back_top {
+	display: block;
+	height: 30px;
+	width: 40px;
+	border:  #eaeaea 1px solid;
+}
+div#back_top a {
+	display: block;
+	height: 30px;
+	width: 40px;
+}
+
+div#qrcode {
+	display:block;
+	height: 30px;
+	width: 40px;
+	border: #eaeaea 1px solid;
 }
 .artice {
 	vertical-align: top;
@@ -183,45 +224,35 @@ div #cell p {
 #secondfoot {
 	display: block;
     margin: 10px 0px 10px 0px;
-    height: 300px;
-    border-bottom: solid 1px gray;
-    border-top: solid 1px gray;
+    height: 250px;
+    border-bottom: solid 1px #bbb;
+    border-top: solid 1px #bbb;
 }
 
-#tools {
-	display: table;
-    padding: 20px 40px 20px 140px;
-    width: 75%;
-    height: 260px;
-    border: none;
-    vertical-align: top;
-
+#secondfoot ul {
+	display: inline-block;
+	vertical-align: top;
+}
+#first_list {
+	margin: 15px 0px 20px 300px;
+}
+#secondfoot ul li {
+	width: 100px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
 }
 
-#toolsrow {
-	display: table-row;
+#QR {
+	display: inline-block;
+	margin: 0;
+	padding:  0px 0px 0px 60px;
+	height: 250px;
+	border-left: #bbb solid 1px;
 }
 
-.unorderline {
-	display: table-cell;
-	border: none;
-}
-
-
-#bigtable {
-	display: table;
-	margin: 0px;
-    height: 300px;
-}
-
-#bigtablerow {
-	display: table-row;
-}
-
-#bigtablecell {
-	display: table-cell;
-	border: solid gray;
-    border-width: 0 0 0 1px;
+#QR h4 {
+	margin: 10px 0 10px 0;
 }
 
 a.unorderline { 
@@ -237,13 +268,13 @@ a.unorderline {
 
 }
 
-div #toolsrow li {
-	
-    margin: 0;
-    padding:10px 0 0 0;
-
-}
-
 a.unorderline:hover{
 	color: green;
+}
+
+#finally_foot {
+	text-align: center;
+	font-size: 0.8em;
+	padding: 0 0 15px 0;
+	color: gray;
 }
