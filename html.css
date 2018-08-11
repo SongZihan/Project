@@ -1,0 +1,183 @@
+body {
+	background-color: #f6f6f6;
+	margin: 0px;
+}
+
+header.top {
+	background-color:#f6f6f6;
+	margin: 17px 0px 15px 0px;
+	padding: 0px 10px 0px 20px;
+	height: 59px;
+}
+header.top h1{
+	width: 258px;
+	height: 39px;
+	display: block;
+	margin:0px;
+}
+header.top a{
+	width: 258px;
+	height: 39px;
+	padding: 10px 0 0 35px;
+    display: block;
+	text-decoration: none;
+}
+
+nav {
+	background-color: #96b97d;
+	height: 34px;
+	color:white;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 7px 40px 7px 35px;
+	list-style-type: none;
+	font-size: 15.2px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	font-size: 0.9em;
+	transition: .3s all ease;
+
+}
+
+nav ul li a:hover {	
+ color: #373a35;
+}
+
+aside {
+	display: inline-block;width:12%;margin: 10px;
+	vertical-align: top;
+}
+aside h5 a {float: right;
+text-decoration: none;}
+
+
+
+.icon-编辑-01:after{
+	content: "\e900";
+	opacity: 0.6;
+}
+
+#asidehead {
+	height:19px ;width:100%;
+	font-size: 1em;
+	font-weight: 200;
+	padding: 5px 1px 5px 9px;
+	background-color: #eaeaea;
+	color:gray;
+	border-radius: 4px;
+}
+
+aside>a,h5 {
+	display: block;
+    height: 23px;
+    width: 100%;
+	border-top: 1px solid #eaeaea;
+    padding: 10px 0px 0px 10px;
+    text-decoration: none;
+    margin: 0px;
+    color: black;
+	font-size: 12px;
+	background-color: rgb(228, 227, 214);
+}
+aside a:hover{
+	font-weight: bold;
+
+}
+section {
+	display: inline-block;
+    width: 69%;	margin: 10px 10px 10px 10px;
+    vertical-align: top;
+    /*background-color: yellow;*/
+}
+
+.section-head {
+	display: block;
+	border: 1px solid #eaeaeada;
+	height: 39px;
+	background-color: #fbfbfb;
+	padding:0;
+
+}
+.section-head a {
+	float: right;
+	position: relative;top: 9px;right: 10px;
+	text-decoration: none;	color: gray;
+}
+
+.icon-03::before{
+	content: "\ea3c";
+}
+article {
+	padding: 10px 10px 0 10px;
+    vertical-align: top;
+    border: 1px solid #eaeaea;
+}
+article h2 {
+	margin: 0;
+	padding: 0;
+}
+article blockquote {
+	background-color: #d5e7c8f8;
+	padding: 10px;	
+}
+article span {
+	color: rgb(132, 223, 132);
+}
+.window {
+	display: block;border: 1px solid #eaeaea;
+	padding: 5px;
+background-image: -webkit-linear-gradient(to top , rgb(154, 204, 154),white);
+background-image: -o-linear-gradient(to top , rgb(154, 204, 154),white);
+background-image: linear-gradient(to top , rgb(154, 204, 154),white);
+	
+}
+.window h4 {
+	padding: 0;margin: 0;	
+}
+.small-window {
+	display: block;
+	border: 1px solid #eaeaea;
+	padding: 5px;background-color: white;
+}
+.window a {
+	display: block;
+    height: 23px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 70px;text-align: center;
+    text-decoration: none;color: white;font-weight: bolder;
+    background-color: rgb(138, 170, 93);
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+}
+.window a:hover {
+	background-color: white;color: #96b97d;
+}
+/*选择section的最后一个article中的a标签*/
+section article:last-of-type a {
+	color: #64854c;
+}
+
+#right-bar-head {
+text-align: center;
+}
+.icon-04::before {
+	content: "\e92e";
+}
+/*使用相邻兄弟选择器*/
+#section~aside a {
+ text-align: center;
+}
