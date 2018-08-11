@@ -25,7 +25,7 @@ header.top a{
 
 nav {
 	background-color: #96b97d;
-	height: 34px;
+	height: 34px;min-width: 670px;
 	color:white;
 }
 
@@ -56,7 +56,7 @@ nav ul li a:hover {
 }
 
 aside {
-	display: inline-block;width:12%;margin: 10px;
+	display: inline-block;width:12%;margin: 10px;min-width: 90px;
 	vertical-align: top;
 }
 aside h5 a {float: right;
@@ -99,7 +99,8 @@ section {
 	display: inline-block;
     width: 69%;	margin: 10px 10px 10px 10px;
     vertical-align: top;
-    /*background-color: yellow;*/
+	/*background-color: yellow;*/
+	min-width: 700px;
 }
 
 .section-head {
@@ -180,4 +181,17 @@ text-align: center;
 /*使用相邻兄弟选择器*/
 #section~aside a {
  text-align: center;
+}
+
+/*当分辨率（宽度）低于1000px时，隐藏右侧边栏*/
+@media screen and (max-width: 1000px) {
+	#section~aside {
+		display: none;
+	}
+}
+/*当分辨率宽度低于860像素时，隐藏左侧边栏*/
+@media screen and (max-width:860px) {
+	aside {
+		display: none;
+	}
 }

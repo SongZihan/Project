@@ -45,7 +45,7 @@ header.top a{
 
 nav {
 	background-color: #96b97d;
-	height: 34px;
+	height: 34px;min-width: 670px;
 	color:white;
 }
 
@@ -120,7 +120,7 @@ div#row{
 
 div#section {
 	display: table-cell;
-	width: 82%;
+	width: 82%;min-width: 680px;
     border: 1px solid #eaeaea;
     background-color: #fff;
     border-radius: 4px;
@@ -277,4 +277,15 @@ a.unorderline:hover{
 	font-size: 0.8em;
 	padding: 0 0 15px 0;
 	color: gray;
+}
+
+@media screen and (max-width:890px) {
+	aside {
+		display: none;
+	}
+}
+@media screen and (max-width:1100px) {
+	#secondfoot {
+		display: none;
+	}
 }
