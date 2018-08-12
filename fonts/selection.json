@@ -1,0 +1,129 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M515.509 853.975c-88.532 0-171.766-34.477-234.369-97.078-62.603-62.603-97.080-145.836-97.080-234.369 0-86.336 33.017-168.078 92.969-230.17 59.795-61.929 140.013-97.804 225.88-101.017l18.442-0.69-7.245 16.971c-13.383 31.347-20.168 64.66-20.168 99.015 0 139.182 113.232 252.414 252.413 252.414 28.536 0 56.565-4.741 83.309-14.088l17.402-6.084-1.908 18.336c-8.432 81.041-46.459 155.944-107.076 210.913-61.049 55.357-140.092 85.846-222.569 85.846zM485.823 215.902c-157.492 14.895-278.367 146.281-278.367 306.625 0 169.862 138.192 308.053 308.053 308.053 152.265 0 279.929-109.685 304.004-257.963-23.753 6.528-48.283 9.828-73.163 9.828-73.669 0-142.931-28.688-195.023-80.783-52.094-52.094-80.783-121.354-80.783-195.025 0.001-31.218 5.133-61.656 15.28-90.735z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "月亮_夜间"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 34,
+        "id": 2,
+        "name": "月亮_夜间",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M1024 320l-512-256-512 256 512 256 512-256zM512 148.97l342.058 171.030-342.058 171.030-342.058-171.030 342.058-171.030zM921.444 460.722l102.556 51.278-512 256-512-256 102.556-51.278 409.444 204.722zM921.444 652.722l102.556 51.278-512 256-512-256 102.556-51.278 409.444 204.722z"
+        ],
+        "tags": [
+          "stack",
+          "layers"
+        ],
+        "defaultCode": 59694,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "stack, layers",
+        "name": "stack",
+        "order": 33,
+        "id": 47,
+        "prevSize": 32,
+        "code": 59694
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 46
+    },
+    {
+      "icon": {
+        "paths": [
+          "M621.254 877.254l320-320c24.994-24.992 24.994-65.516 0-90.51l-320-320c-24.994-24.992-65.516-24.992-90.51 0-24.994 24.994-24.994 65.516 0 90.51l210.746 210.746h-613.49c-35.346 0-64 28.654-64 64s28.654 64 64 64h613.49l-210.746 210.746c-12.496 12.496-18.744 28.876-18.744 45.254s6.248 32.758 18.744 45.254c24.994 24.994 65.516 24.994 90.51 0z"
+        ],
+        "tags": [
+          "arrow-right",
+          "right",
+          "next"
+        ],
+        "defaultCode": 59964,
+        "grid": 16,
+        "attrs": []
+      },
+      "attrs": [],
+      "properties": {
+        "ligatures": "arrow-right2, right4",
+        "name": "arrow-right2",
+        "order": 35,
+        "id": 317,
+        "prevSize": 32,
+        "code": 59964
+      },
+      "setIdx": 1,
+      "setId": 1,
+      "iconIdx": 316
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon",
+        "majorVersion": 1,
+        "minorVersion": 0
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false,
+      "autoHost": true,
+      "resetPoint": 59648
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon",
+      "name": "icomoon"
+    },
+    "historySize": 50,
+    "showCodes": true,
+    "gridSize": 16,
+    "showLiga": false,
+    "quickUsageToken": {
+      "UntitledProject": "NzhjMDYzNjk1NmMxMjJmNzkyOTU4YmNhMDVmZTNjNzQjMSMxNTMzNzE1Mjk5IyMj"
+    }
+  }
+}
